@@ -31,12 +31,12 @@ public class Solution {
             fast = fast.next.next;
 
             if(slow == fast){
-                slow = head;
+                fast = head;
                 while(slow!=fast){
                 slow = slow.next;
                 fast = fast.next;
                 }
-                return slow; // or return fast (both are at the starting point of cycle node)
+                return fast; // or return fast (both are at the starting point of cycle node)
             }
         }
         return null;
