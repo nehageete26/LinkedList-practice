@@ -25,7 +25,7 @@ class Solution {
     ListNode dummy = new ListNode(-1);
     ListNode temp = dummy;
     while(t1 != null && t2 != null){
-        if(t1.val < t2.val){
+        if(t1.val <= t2.val){
             temp.next = t1;
             temp = temp.next;
             t1 = t1.next;
