@@ -10,19 +10,22 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        // TC = O(2N) SC = O(N)
-        ListNode temp = head;
-        Stack<Integer> st = new Stack<>();
-        if(head == null || head.next == null) return true;
-        while(temp!=null){
-            st.push(temp.val);
-            temp = temp.next;
+        ListNode slow = head, fast = head;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        temp = head;
-        while(temp!=null){
-            if(temp.val != st.peek()) return false;
-            st.pop();
-            temp = temp.next;
+        ListNode prev = null;
+        while(slow != null){
+            ListNode temp = slow.next;
+            slow.next = prev;
+            prev = slow;
+            slow = temp;
+        }
+        while(prev != null){
+            if(head.val != prev.val) return false;
+            head = head.next;
+            prev = prev.next;
         }
         return true;
     }
