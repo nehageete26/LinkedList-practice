@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/nehageete26/LinkedList-practice/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/nehageete26/LinkedList-practice/tree/master/0328-odd-even-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/nehageete26/LinkedList-practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2181-merge-nodes-in-between-zeros](https://github.com/nehageete26/LinkedList-practice/tree/main/2181-merge-nodes-in-between-zeros/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,4 +78,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/nehageete26/LinkedList-practice/tree/main/0023-merge-k-sorted-lists/) | Hard |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2181-merge-nodes-in-between-zeros](https://github.com/nehageete26/LinkedList-practice/tree/main/2181-merge-nodes-in-between-zeros/) | Medium |
 <!---LeetCode Topics End-->
