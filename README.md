@@ -87,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2181-merge-nodes-in-between-zeros](https://github.com/nehageete26/LinkedList-practice/tree/main/2181-merge-nodes-in-between-zeros/) | Medium |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/nehageete26/LinkedList-practice/tree/main/0141-linked-list-cycle/) | Easy |
 <!---LeetCode Topics End-->
